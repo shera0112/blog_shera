@@ -1,0 +1,16 @@
+<h1>Edit User</h1>
+
+<?php
+
+      echo $this->Form->create($user);
+
+      echo $this->Form->control('name'),
+           $this->Form->control('username'),
+           $this->Form->control('password'),
+           $this->Form->control('email'),
+           $this->Form->control('status'),
+           $this->Form->button('Submit');
+
+      echo $this->Form->end();
+
+  ?>

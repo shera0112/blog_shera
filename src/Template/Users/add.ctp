@@ -2,7 +2,7 @@
 
 <?php
 
-      echo $this->Form->create(); 
+      echo $this->Form->create($user); 
 
       echo $this->Form->control('name'),
            $this->Form->control('username'),
